@@ -1,0 +1,328 @@
+{
+	"id": "012459788e72ea4499a6c5dcd5b1ea92",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"lecture/lec5.sol": {
+				"content": "// SPDX-License-Identifier: GPL-30\n\npragma solidity >= 0.7.0 < 0.9.0;\n\ncontract Lec4 {\n\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"lecture/lec5.sol": {
+				"Lec4": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"lecture/lec5.sol\":71:89  contract Lec4 {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"lecture/lec5.sol\":71:89  contract Lec4 {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220dd0097d4aaf75791aea5cf76963415ca9cd3aefd0d34dc1b02a5c3a7c8f6eaec64736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220dd0097d4aaf75791aea5cf76963415ca9cd3aefd0d34dc1b02a5c3a7c8f6eaec64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDD STOP SWAP8 0xD4 0xAA 0xF7 JUMPI SWAP2 0xAE 0xA5 0xCF PUSH23 0x963415CA9CD3AEFD0D34DC1B02A5C3A7C8F6EAEC64736F PUSH13 0x63430008070033000000000000 ",
+							"sourceMap": "71:18:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea2646970667358221220dd0097d4aaf75791aea5cf76963415ca9cd3aefd0d34dc1b02a5c3a7c8f6eaec64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDD STOP SWAP8 0xD4 0xAA 0xF7 JUMPI SWAP2 0xAE 0xA5 0xCF PUSH23 0x963415CA9CD3AEFD0D34DC1B02A5C3A7C8F6EAEC64736F PUSH13 0x63430008070033000000000000 ",
+							"sourceMap": "71:18:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 71,
+									"end": 89,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220dd0097d4aaf75791aea5cf76963415ca9cd3aefd0d34dc1b02a5c3a7c8f6eaec64736f6c63430008070033",
+									".code": [
+										{
+											"begin": 71,
+											"end": 89,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 71,
+											"end": 89,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 71,
+											"end": 89,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 71,
+											"end": 89,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 71,
+											"end": 89,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 71,
+											"end": 89,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lecture/lec5.sol\":\"Lec4\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"lecture/lec5.sol\":{\"keccak256\":\"0x194556aa87d2d2c8d5f45e95f9872b4c90dcabed316ad434c56e10fefd3ba186\",\"license\":\"GPL-30\",\"urls\":[\"bzz-raw://33e23c1b6d4ccfb2da40d64315f5a577a345710d8fc045b6451e102e92adcc4e\",\"dweb:/ipfs/QmRex9N6LnPXozrfeMDu327grN6kBmuusVv7qSZ5NZvigv\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"lecture/lec5.sol": {
+				"ast": {
+					"absolutePath": "lecture/lec5.sol",
+					"exportedSymbols": {
+						"Lec4": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "GPL-30",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "36:33:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "Lec4",
+							"nameLocation": "80:4:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "71:18:0",
+							"usedErrors": []
+						}
+					],
+					"src": "36:53:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

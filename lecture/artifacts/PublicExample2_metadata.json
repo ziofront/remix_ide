@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "changeA2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "usePublicExampleA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/lec5.sol": "PublicExample2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/lec5.sol": {
+			"keccak256": "0xd0b6a6437e83e65348d71529f8d1c5bdf0074fd8de168bdedcc0a3283ddf4ed6",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://c5bf19a37dadbd0bb2cf93f452422ef977aa92d5a62fa3e8e382452782cdb6e9",
+				"dweb:/ipfs/QmdF4agrimcF7MbEnV67VhgJtEtTk4S8pnUDFzj8BPDwqE"
+			]
+		}
+	},
+	"version": 1
+}
