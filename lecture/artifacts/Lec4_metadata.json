@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "hi",
+				"name": "a",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec4.sol": "Lec1"
+			"lecture/lec4.sol": "Lec4"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"lecture/lec4.sol": {
-			"keccak256": "0x7f731a09389c5047c3e669ba48d3325ea6540a91c027d1bdf627aef3bc2be4d0",
+			"keccak256": "0x4a987cfc20fe6b46571053bd04718bd815541c244b4a116bb1f15f41009b9d35",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://26ebc418cc82704e7bd3ce8715e1890f515c3104cc69375d8c57bc9c1520fc2e",
-				"dweb:/ipfs/QmRHaorUNWeVGXTc8Fbj7viGCxohvbaD5Aka5AsAPNxZ7R"
+				"bzz-raw://f3a8a80d0dc73523935bc7a4711f0b3f4004d7a0e83c3d4c074ffb9a740a1e32",
+				"dweb:/ipfs/QmTWLGDanhWt8xewjXvbYtWPqJ1Q4rohezoTYmPF2VvfH1"
 			]
 		}
 	},
